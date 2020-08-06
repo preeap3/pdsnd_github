@@ -169,6 +169,13 @@ def main():
       i = 0
       raw = input("\nWould you like to see first 5 rows of raw data; type 'yes' or 'no'?\n").lower()
       pd.set_option('display.max_columns',200)
+     
+       while True:            
+        if raw == 'no':
+          break
+        print(df[i:i+5])
+        raw = input('\nWould you like to see next rows of raw data?\n').lower()
+        i += 5
 
         time_stats(df)
         station_stats(df)
