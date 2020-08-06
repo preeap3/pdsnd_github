@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+This file was created in August 2020
 
 ### Project Title
-Replace the Project Title
+The title of the project is bikeshare.py
 
 ### Description
-Describe what your project is about and what it does
+I wrote code in order to provide useful information about bikeshare users and station statistics using user input.
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Used this as a reference to write code on line 66 and 67 to filter for month and day but was unable to run it without error. Also, not sure how one can obtain information on most common month if a filter is applied ahead of time for month.
+https://stackoverflow.com/questions/17071871/how-to-select-rows-from-a-dataframe-based-on-column-values
 
