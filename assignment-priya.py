@@ -65,7 +65,7 @@ def load_data(input_city,input_month,input_day):
     df = pd.read_csv(filename)
     #df = df.loc[df['Start Time'].dt.month == input_month]
     #df = df.loc[df['Start Time'].dt.day == input_day]
-
+    #This code is to allow for filtering of user input for day and month
 
     return df
 
