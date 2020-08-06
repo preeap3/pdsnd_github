@@ -166,6 +166,9 @@ def main():
     while True:
         input_city, input_month, input_day = get_filters()
         df = load_data(input_city, input_month, input_day)
+      i = 0
+      raw = input("\nWould you like to see first 5 rows of raw data; type 'yes' or 'no'?\n").lower()
+      pd.set_option('display.max_columns',200)
 
         time_stats(df)
         station_stats(df)
